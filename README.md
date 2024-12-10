@@ -14,11 +14,21 @@ This project highlights:
 
 ---
 
-## **Project Structure**
-Job_Scraping_Simulation/ ├── README.md # Project documentation ├── mock_api/ # Flask API to serve mock job data │ ├── app.py # Flask app file ├── mock_jobs_data.json # JSON file containing 200 mock job listings ├── simulateScrapingFromAPI.py # Python script to fetch data from the API ├── static_scraper.py # (Optional) Static scraper for local HTML pages ├── visualize_jobs.py # Script to generate visualizations ├── sample_output/ # Folder containing scraped CSV and outputs │ ├── scraped_jobs.csv # Output CSV file with fetched job data ├── mock_job_page.html # Mock HTML file (used for static scraping example) ├── venv/ # Virtual environment (not included in version control)
+Project Structure:
 
-markdown
-Copy code
+Job_Scraping_Simulation/
+├── README.md                   # Project documentation
+├── mock_api/                   # Flask API directory
+│   ├── app.py                  # Flask app file to serve mock job data
+├── mock_jobs_data.json         # JSON file containing 200 mock job listings
+├── simulateScrapingFromAPI.py  # Script to fetch job data from the API
+├── static_scraper.py           # (Optional) Static scraper for local HTML files
+├── visualize_jobs.py           # Script for data visualization
+├── sample_output/              # Directory for output files
+│   ├── scraped_jobs.csv        # CSV file with fetched job data
+├── mock_job_page.html          # Mock HTML file for static scraping example
+├── venv/                       # Virtual environment directory (not included in GitHub)
+
 
 ---
 
@@ -49,20 +59,16 @@ Copy code
    cd Job_Scraping_Simulation
 Set Up Virtual Environment:
 
-bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
+
 Install Dependencies:
 
-bash
-Copy code
 pip install flask pandas matplotlib requests
 Run Flask API: Navigate to the mock_api folder and run the Flask app:
 
-bash
-Copy code
+
 python mock_api/app.py
 The API will start running at http://127.0.0.1:5000.
 
@@ -70,26 +76,15 @@ Usage
 1. Fetch Data from the API
 Run the simulateScrapingFromAPI.py script to fetch job data and save it to a CSV:
 
-bash
-Copy code
+
 python simulateScrapingFromAPI.py
 This will:
-
 Fetch all job listings from the API.
 Save the data as sample_output/scraped_jobs.csv.
+
 2. Visualize the Data
 Run the visualize_jobs.py script to generate visual insights from the scraped data:
 
-bash
-Copy code
-python visualize_jobs.py
-Example visualizations include:
-
-Job Counts by Company:
-(Replace with an actual image if available)
-
-Job Counts by Location:
-(Replace with an actual image if available)
 
 API Endpoints
 GET /jobs: Fetch all job listings.
