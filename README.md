@@ -14,20 +14,10 @@ This project highlights:
 
 ---
 
-Project Structure:
 
-Job_Scraping_Simulation/
-├── README.md                   # Project documentation
-├── mock_api/                   # Flask API directory
-│   ├── app.py                  # Flask app file to serve mock job data
-├── mock_jobs_data.json         # JSON file containing 200 mock job listings
-├── simulateScrapingFromAPI.py  # Script to fetch job data from the API
-├── static_scraper.py           # (Optional) Static scraper for local HTML files
-├── visualize_jobs.py           # Script for data visualization
-├── sample_output/              # Directory for output files
-│   ├── scraped_jobs.csv        # CSV file with fetched job data
-├── mock_job_page.html          # Mock HTML file for static scraping example
-├── venv/                       # Virtual environment directory (not included in GitHub)
+# Project Structure
+
+Job_Scraping_Simulation/ ├── README.md # Project documentation ├── mock_api/ # Flask API directory │ ├── app.py # Flask app file to serve mock job data ├── mock_jobs_data.json # JSON file containing 200 mock job listings ├── simulateScrapingFromAPI.py # Script to fetch job data from the API ├── static_scraper.py # (Optional) Static scraper for local HTML files ├── visualize_jobs.py # Script for data visualization ├── sample_output/ # Directory for output files │ ├── scraped_jobs.csv # CSV file with fetched job data ├── mock_job_page.html # Mock HTML file for static scraping example ├── venv/ # Virtual environment directory (not included in GitHub)
 
 
 ---
