@@ -95,6 +95,39 @@ Run the visualize_jobs.py script to generate visual insights from the scraped da
 ### Job Counts by Location
 ![Job Counts by Location](images/job_counts_by_location.png)
 
+1. Job Counts by Company
+Key Insights:
+
+CryptoHub and AI Corp are the largest employers in this dataset, each offering over 40 job listings. These companies are likely scaling aggressively or have significant hiring demands.
+Companies like DataWorld, HealthAI, and TechCorp follow with moderate hiring activity (~30–35 job listings each).
+FinTech Solutions has the lowest number of job postings, suggesting either a niche focus or fewer immediate hiring needs.
+Actionable Takeaways:
+
+Job seekers could prioritize applications to CryptoHub and AI Corp, as they have the most opportunities available.
+For those with niche skills (e.g., in FinTech), targeting companies like FinTech Solutions might lead to specialized roles with less competition.
+2. Job Counts by Location
+Key Insights:
+
+San Francisco and New York City dominate as the top locations for job opportunities, each hosting over 40 listings. These cities remain critical hubs for technology and business-related roles.
+Austin is also a significant hiring hub (~35 job listings), reflecting its rise as a growing tech city.
+Remote work is the least represented, indicating that these companies may prioritize on-site roles or are still transitioning to hybrid work environments.
+Actionable Takeaways:
+
+Job seekers based in San Francisco or New York City will find the highest number of opportunities, especially in tech.
+For those unwilling to relocate, remote roles are available but represent a smaller portion of the total job market in this dataset.
+Austin presents a growing opportunity for those looking for a balance between a tech-heavy job market and a less saturated urban environment.
+Combined Insights
+Top Hiring Companies in Major Locations:
+
+CryptoHub and AI Corp likely dominate job listings in San Francisco and New York City, where hiring activity is highest.
+A deeper analysis could reveal specific trends, such as whether these companies focus on remote roles or specific job types.
+Trend Observation:
+
+While remote work is the least represented category, its presence in the dataset indicates that flexible work is still an option, though more prevalent in smaller companies or specific industries.
+Future Analysis Opportunities
+Company-Location Cross Analysis: Identify which companies dominate hiring in specific cities (e.g., "CryptoHub in San Francisco").
+Role Types: Break down the dataset by job titles to find trends in demand (e.g., developers, analysts).
+Remote Trends: Investigate which roles are more likely to be offered remotely
 
 
 API Endpoints
