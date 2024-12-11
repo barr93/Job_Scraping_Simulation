@@ -83,8 +83,18 @@ This will:
 Fetch all job listings from the API.
 Save the data as sample_output/scraped_jobs.csv.
 
-2. Visualize the Data
+
+## Visualizations
+
 Run the visualize_jobs.py script to generate visual insights from the scraped data:
+
+
+### Job Counts by Company
+![Job Counts by Company](images/job_counts_by_company.png)
+
+### Job Counts by Location
+![Job Counts by Location](images/job_counts_by_location.png)
+
 
 
 API Endpoints
